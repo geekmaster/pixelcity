@@ -254,7 +254,7 @@ void CBuilding::ConstructRoof (float left, float right, float front, float back,
   int       i;
   int       width, depth, height;
   int       face;
-  int       addon;
+  int       addon = ADDON_NONE;
   int       max_tiers;
   float     ac_x;
   float     ac_y;
@@ -584,7 +584,7 @@ void CBuilding::CreateSimple ()
   float       cap_height;
   float       ledge;
 
-  for(int i=0; i<=10; i++)
+  for(int i=0; i<10; i++)
     qs.index_list.push_back(i);
 
   //How tall the flat-color roof is

@@ -17,7 +17,7 @@
 #include <math.h>
 #include <gl\gl.h>
 #include <gl\glu.h>
-#include <gl\glaux.h>
+// #include <gl\glaux.h>
 #include "glTypes.h"
 
 #include "deco.h"
