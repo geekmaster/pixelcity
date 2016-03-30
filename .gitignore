@@ -1,6 +1,17 @@
 /Debug
 /Release
+Debug/
+Release/
 /PixelCity_2012.vcxproj.user
 /pixelcity.ini
 /PixelCity_2012.sdf
 /PixelCity_2012.v11.suo
+*.sdf
+*.opensdf
+*.suo
+*.opendb
+*.ini
+*.exe
+*.dll
+*.pdb
+*.ilk
